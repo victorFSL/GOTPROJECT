@@ -1,0 +1,23 @@
+.ui.fluid.nine.item.menu.secondary.fixed
+  background-color: transparentize($navbar-color, 0.5)
+  height: 50px
+  h1.ui.header.item
+    font-size: 4em
+  a.item
+    &:hover
+      color: $primary-color
+  .item
+    color: $primary-letter-color
+    span.logo-one
+      background-color: $navbar-color
+      padding: 5px 5px 5px 15px
+      -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)
+      clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)
+    span.logo-two
+      background-color: $primary-color
+      color: $navbar-color
+      padding: 5px 15px 5px 5px
+      -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%)
+      clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%)
+  .item.menu-item
+    font-size: 1em

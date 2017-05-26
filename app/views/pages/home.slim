@@ -1,0 +1,24 @@
+.image-container
+  #background-image
+  #image-overlay
+  .ui.header.text
+    span We create WebApps and Websites, 
+    h3.ui.header 
+      | so you can 
+      span Get Out There
+      | and start your dream.
+    .ui.hidden.divider
+    .ui.hidden.divider
+    h5.ui.sub.header
+      a Know more about our clients 
+      a
+        i.angle.link.double.right.icon.inverted.circular 
+    .ui.hidden.divider
+    .container
+      .owl-carousel
+        = image_tag "VirtualSavvy.png", class: "ui image medium image-height"
+        = image_tag "GoldmanCapital.png", class: "ui image medium image-height"
+        = image_tag "LaBella.png", class: "ui image medium image-height"
+        = image_tag "Lupita VA.png", class: "ui image medium image-height"
+        h4.ui.header style="font-family: 'pacifico'; color: white; font-size: 1.3em; margin-top: 20px" Farmaenlinea      
+= render partial: "testimonials"
